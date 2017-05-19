@@ -16,4 +16,4 @@ In order to have a conversation:
 
 I was able to get this app started thanks to the help of this article [here](https://www.codementor.io/dominicscanlan/creating-a-slack-bot-using-node-js-vgwto3mu6).
 
-[Heroku](https://polar-badlands-15048.herokuapp.com/)
+app is hosted on [Heroku](https://polar-badlands-15048.herokuapp.com/)
