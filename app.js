@@ -1,6 +1,14 @@
 require('dotenv').config({silent: true});
 let Botkit = require('botkit');
 let mongoose = require("mongoose");
+let express = require("express");
+
+var app = express();
+app.listen(process.env.PORT || 3000, function() {
+  console.log("listening on port")
+});
+
+
 
 let conversationSchema = new mongoose.Schema({
   company: String,
@@ -16,7 +24,7 @@ let Conversation = mongoose.model('Conversation', conversationSchema);
 let newConvo = new Conversation();
 
 mongoose.connect(process.env.DB_KEY, function() {
-  console.log("Connected");
+  console.log("Connected to DB");
 });
 
 let controller = Botkit.slackbot({
