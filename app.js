@@ -4,6 +4,12 @@ let mongoose = require("mongoose");
 let express = require("express");
 
 var app = express();
+
+app.get('/', function(req, res){
+  res.send('Slackbot is active!!!');
+});
+
+
 app.listen(process.env.PORT || 3000, function() {
   console.log("listening on port")
 });
