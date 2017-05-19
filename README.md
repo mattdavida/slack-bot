@@ -14,6 +14,6 @@ In order to have a conversation:
 2. Send a direct message to super_awesome_bot that says "hello" or "question"
 3. Answer all the questions. (Once finished, the results are saved to MongoDB)
 
-I was able to get this app started thanks to the help of this article [here](https://www.codementor.io/dominicscanlan/creating-a-slack-bot-using-node-js-vgwto3mu6).
+I was able to get this app started thanks to the help of [this](https://www.codementor.io/dominicscanlan/creating-a-slack-bot-using-node-js-vgwto3mu6) article.
 
 app is hosted on [Heroku](https://polar-badlands-15048.herokuapp.com/)
