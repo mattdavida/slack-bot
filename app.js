@@ -108,7 +108,7 @@ let askBudget = function(response, convo) {
 }
 
 let logInfo = function(response, convo) {
-  newConvo.save();
+  newConvo.save().then(() => newConvo = null);
   convo.say("Your results have been saved.  Thank you for your response.", function(response, convo) {
   });
 }
